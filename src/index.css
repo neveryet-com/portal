@@ -1,0 +1,17 @@
+@tailwind base;
+ 
+@tailwind components;
+ 
+@tailwind utilities;
+
+.HeroWords {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #833ab4, #fd1d1d 50%, #fcb045);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+    font-size: 1.125rem/* 18px */;
+    line-height: 1.75rem/* 28px */;
+    font-weight: 400;
+}
